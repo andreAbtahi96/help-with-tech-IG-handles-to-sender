@@ -1,0 +1,15 @@
+username: "username"
+password: "password"
+post_to_share: "https://www.instagram.com/p/CaaixvLPaKG/"
+# The destinations batch size must be less or equals than the amount of destinations
+# It could be 50 (the API limit) or less, depending on how ofter do you want to vary the message and send
+destinations_batch_size: 1
+# This allows to randomize the message for each batch, to prevent spam checks
+alternative_messages:
+- "Hey there, this is just a test, please ignore"
+- "This is just a test message for the script, please ignore"
+- "Testing my account, please ignore this message"
+destinations:
+- "igaccount1"
+- "igaccount2"
+- "igaccount3"
